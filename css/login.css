@@ -1,0 +1,74 @@
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-image: linear-gradient(to right, #17f0e8, #00d5f8, #00b5ff, #0092ff, #1267eb);
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #17F0E8;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #1BEB12;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #17F0E8;
+}
+
+/* Style the tab content */
+.tabcontent {
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.backline{
+    display: flex;
+   position: fixed; 
+    width: 100%;
+    height: 100%;
+    opacity:0.5;
+}
+.modal-content{
+			background-color: darkcyan;
+            top:40px;
+		}
+.input-group-addon, .input-group-btn {
+    width: 10%;
+    white-space: nowrap;
+    vertical-align: middle;
+}		 
+	
+.input-group-addon {
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px 0px 0px 4px;
+}
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+	.btn-link{
+			color:white;
+		}
+		.modal-heading h2{
+			color:#ffffff;
+		}
